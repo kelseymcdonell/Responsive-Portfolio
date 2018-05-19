@@ -1,0 +1,398 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    font-size: x-large;
+    text-align: center;
+    float: left;
+    margin-left: 135px;
+   font-weight: bold;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: x-large;
+    padding: 20px;
+    font-weight: bold;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+};
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+header {
+    height: 64px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: medium;
+    
+}
+
+nav{
+    float: right;
+    padding: 20px; 
+    margin-right: 132px;  
+    text-align: right;
+    word-spacing: 10px;
+    color: #cccccc;
+}
+
+footer{
+    padding: 20px;
+    border-style: solid;
+    border-top-width: 5px;
+    border-top-color:  #4aaaa5;
+    background-color: #666666;
+    margin-top: 20px;
+    height: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#content{
+    width: 960px;
+    height: 410px;
+    border-style: solid;
+    border-width: medium;
+    border-color:#cccccc;
+    background-color: #ffffff;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+}
+
+#picture{
+float: left;
+height: 150px;
+width: 150px;
+padding: 20px;
+}
+
+#picture img{
+height: 100%;
+width: 100%;
+}
+
+#description{
+float: initial;
+padding: 20px;
+line-height: 1.5;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* background-image: url("concrete.png"); */
+    background-image: url(../images/concrete-texture.png);
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+hr{
+    background-color: #cccccc;
+    border: 0;
+    height: 3px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+| {
+    background-color: #cccccc;
+}
+
+form{
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+input[type=text], textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 8px 14px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5ad;
+}
+
+div.gallery {
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+div.gallery {
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+@media (max-width: 640px ){
+    #picture {
+    float: none;
+    position: static;
+   
+    }
+    #description {
+   float: none;
+   position: static;
+   line-height: 1.2;
+   font-size: 12pt;
+   width: 550px;
+   padding-top: 0;
+
+    }
+    #content {
+        height: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    footer {
+        padding: 0;
+        height: 20px;
+        margin: 0;
+    }
+    hr{
+    height: 2.5px;
+    }
+    h2{
+        font-size: 16pt;
+        padding-bottom: 5px;
+    }
+    header {
+        margin: 0;
+        background-color: #4aaaa5;
+        height: 58px;
+        border: 0;
+    }
+    a{
+        color: #ffffff;
+        font-size: 12pt;
+        text-align: initial;
+        margin: 0;
+    }
+    nav {
+        float: none;
+        color: #ffffff;
+        text-align: initial;
+        word-spacing: 2px; 
+        margin: 0;
+    }
+    h1 {
+        margin: 0;
+        border: 0;
+        font-size: 18pt;
+    }
+    body{
+        width:640px;
+    }
+    input[type=text], textarea {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        padding: 8px 14px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        width: 10%;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #4aaaa5ad;
+    }
+}
+@media (max-width: 768px ){
+
+    footer {
+        padding: 10px
+    }
+    header {
+        margin: 0;
+        background-color: #4aaaa5;
+        height: 58px;
+        border: 0;}
+        h1 {
+            margin: 0;
+            border: 0;
+            font-size: 18pt;}
+            a{
+                color: #ffffff;
+                font-size: 12pt;
+                text-align: initial;
+                margin: 0;}
+                nav {
+                    float: none;
+                    color: #ffffff;
+                    text-align: initial;
+                    word-spacing: 2px; 
+                    margin: 0;
+                }
+                h2{
+                    font-size: 16pt;
+                    padding-bottom: 5px;}
+                    body{
+                        width:768px;
+                    }
+                    #picture {
+                        float: none;
+                        position: static;
+                       
+                        }
+                        #description {
+                       float: none;
+                       position: static;
+                       line-height: 1.2;
+                       font-size: 12pt;
+                       width: 550px;
+                       padding-top: 0;
+                    
+                        }
+                        #content {
+                            height: fit-content;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        #content {
+                            height: fit-content;
+                            padding: 0;
+                            margin: 0;}           
+}
+
+@media (max-width: 980px ){
+
+
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive {
+        width: 49.99999%;
+       float: left;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* 
+<!-- Pseudocoding a bit here..... 
+
+I'm having some trouble with this assignment... I think it would have helped if I had started from scratch and built from the 
+smallest screen first. The responsive gallery wasn't spacing right. I'm mostly having trouble with floats and positioning everything. 
+I know this doesn't look like the images in the instructions :( 
+  
+--> */
